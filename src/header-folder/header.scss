@@ -1,0 +1,23 @@
+@mixin display-properties{
+    font-family: arial;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin font-properties{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.header-section{
+    @include display-properties;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid rgb(188, 175, 175)
+}
+.colorlib-text{
+    @include font-properties;
+}
+.home-pages span{
+    margin-right: 33px;
+}

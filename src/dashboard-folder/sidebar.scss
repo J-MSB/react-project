@@ -1,0 +1,31 @@
+@mixin font{
+    color: blue;
+    font-size: 24px;
+}
+.menu-text{
+    @include font;
+}
+@mixin sidebar-container{
+    display: inline-block;
+    padding: 10px 70px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+   
+}
+.side-bar-container{
+   @include sidebar-container;
+   border: 1px solid rgb(183, 178, 178);
+}
+@mixin links{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 37px;
+    color: black
+}
+.side-bar-links a{
+    @include links;
+}
+.side-bar-links{
+    margin-top: 60px;
+}

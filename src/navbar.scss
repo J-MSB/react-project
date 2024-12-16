@@ -1,0 +1,9 @@
+@mixin display-flex{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    @include display-flex;
+}

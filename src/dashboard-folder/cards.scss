@@ -1,0 +1,24 @@
+@mixin cards-design{
+    border: 1px solid red;
+    padding: 70px;
+    border-radius: 4px;
+    margin-right: 22px;
+}
+.cards{
+    @include cards-design;
+}
+@mixin display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+}
+.cards-profile{
+    @include display-flex;
+    margin-top: 30px;
+    overflow-y: auto;
+    width: 892px;
+    padding-left: 32%;
+
+}
