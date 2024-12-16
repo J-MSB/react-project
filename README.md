@@ -1,2 +1,2 @@
 # react-project
-react testing project
+react testing project folder
